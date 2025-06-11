@@ -23,7 +23,7 @@ const showItems = (arrayItems) => {
       card.classList.add("card", "col", "p-0");
       card.innerHTML = `
           <img src="images/${item.url}" class="card-img-top booking-img" alt="Item" />
-          <div class="card-body d-flex flex-column justify-content-between gap-5">
+          <div class="card-body d-flex flex-column justify-content-between">
             <div class="h-100 d-flex flex-column justify-content-start">
               <h2 class="card-title fs-5">${item.name}</h2>
               <p class="card-text">$${item.price}</p>
