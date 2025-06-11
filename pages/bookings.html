@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar Sesion</title>
+
+    <!-- Pagination -->
+    <link
+      rel="stylesheet"
+      href="https://uicdn.toast.com/tui.pagination/latest/tui-pagination.css"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="../node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/@fortawesome/fontawesome-free/css/solid.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/@fortawesome/fontawesome-free/css/brands.min.css"
+    />
+
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="d-flex flex-column justify-content-between">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid px-3">
+          <a class="navbar-brand" href="../index.html">
+            <img class="logo" src="../images/logo.png" alt="Logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./bookings.html">Lugares</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">Sobre Nosotros</a>
+              </li>
+            </ul>
+
+            <div class="text-black">
+              <span id="loginButton" class="d-flex">
+                <a href="./login.html" class="text-black">Iniciar Sesion</a>
+              </span>
+              <span id="userLoged" class="align-items-center gap-2 d-none">
+                <a href="./dashboard.html" class="text-black">Perfil</a
+                ><i class="fa-solid fa-user"></i
+              ></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="container my-5">
+        <div class="container w-50 mb-5">
+          <h3>Filtrar por:</h3>
+
+          <div class="d-flex flex-column gap-2">
+            <label for="category">Categoria</label>
+            <select id="category" class="form-control">
+              <option value="">Todos</option>
+              <option value="hotels">Hoteles</option>
+              <option value="apartments">Departamentos</option>
+            </select>
+
+            <label for="price-range">Rango de precio:</label>
+            <div class="d-flex">
+              <input
+                type="number"
+                min="0"
+                id="price-min"
+                class="form-control w-25"
+                placeholder="Precio minimo"
+              />
+              <input
+                type="number"
+                min="0"
+                id="price-max"
+                class="form-control w-25"
+                placeholder="Precio maximo"
+              />
+            </div>
+
+            <div class="d-flex flex-column flex-md-row justify-content-between mt-4">
+              <button id="btn-filter" class="btn btn-primary w-50">Filtrar</button>
+              <button id="btn-reset" class="btn btn-secondary">Resetear</button>
+            </div>
+          </div>
+        </div>
+        <div
+          id="container-lodging"
+          class="row row-cols-5 justify-content-center gap-2"
+        >
+          <div id="pagination" class="tui-pagination"></div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="d-flex justify-content-center align-items-center bg-body-tertiary footer"
+    >
+      <span class="text-black"
+        ><i class="fa-regular fa-copyright"></i>Todos los derechos
+        reservados</span
+      >
+    </footer>
+
+    <script src="https://uicdn.toast.com/tui.pagination/latest/tui-pagination.js"></script>
+    <script src="../js/session.js"></script>
+    <script type="module" src="../js/bookings.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+  </body>
+</html>

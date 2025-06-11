@@ -1,0 +1,19 @@
+.side-bar {
+  min-width: 18em;
+  height: 100vh;
+
+  .title {
+    cursor: default;
+    width: 100%;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  li a:hover {
+    background-color: var(--bs-info);
+  }
+}
+
+.logoutButton {
+  cursor: pointer;
+}

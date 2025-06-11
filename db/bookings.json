@@ -1,0 +1,164 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Departamento",
+      "price": 13600,
+      "description": "Departamento test",
+      "category": "apartments",
+      "url": "departamento-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Departamento 2",
+      "price": 42600,
+      "description": "Departamento test",
+      "category": "apartments",
+      "url": "departamento-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Departamento 3",
+      "price": 14600,
+      "description": "Departamento test",
+      "category": "apartments",
+      "url": "departamento-3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Departamento 4",
+      "price": 15000,
+      "description": "Departamento test",
+      "category": "apartments",
+      "url": "departamento-4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Departamento 5",
+      "price": 11600,
+      "description": "Departamento test",
+      "category": "apartments",
+      "url": "departamento-5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Departamento 6",
+      "price": 12700,
+      "description": "Departamento test",
+      "category": "apartments",
+      "url": "departamento-6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Departamento 7",
+      "price": 15680,
+      "description": "Departamento test",
+      "category": "apartments",
+      "url": "departamento-7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Departamento 8",
+      "price": 10542,
+      "description": "Departamento test",
+      "category": "apartments",
+      "url": "departamento-8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Departamento 9",
+      "price": 16475,
+      "description": "Departamento test",
+      "category": "apartments",
+      "url": "departamento-9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Departamento 10",
+      "price": 17580,
+      "description": "Departamento test",
+      "category": "apartments",
+      "url": "departamento-10.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Hotel 1",
+      "price": 16900,
+      "description": "Departamento test",
+      "category": "hotels",
+      "url": "hotel-1.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Hotel 2",
+      "price": 27600,
+      "description": "Departamento test",
+      "category": "hotels",
+      "url": "hotel-2.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Hotel 3",
+      "price": 22458,
+      "description": "Departamento test",
+      "category": "hotels",
+      "url": "hotel-3.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Hotel 4",
+      "price": 36450,
+      "description": "Departamento test",
+      "category": "hotels",
+      "url": "hotel-4.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Hotel 5",
+      "price": 21770,
+      "description": "Departamento test",
+      "category": "hotels",
+      "url": "hotel-5.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Hotel 6",
+      "price": 42157,
+      "description": "Departamento test",
+      "category": "hotels",
+      "url": "hotel-6.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Hotel 7",
+      "price": 24740,
+      "description": "Departamento test",
+      "category": "hotels",
+      "url": "hotel-7.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Hotel 8",
+      "price": 32546,
+      "description": "Departamento test",
+      "category": "hotels",
+      "url": "hotel-8.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Hotel 9",
+      "price": "9540",
+      "description": "Departamento test",
+      "category": "hotels",
+      "url": "hotel-9.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Hotel 10",
+      "price": 15684,
+      "description": "Departamento test",
+      "category": "hotels",
+      "url": "hotel-10.jpg"
+    }
+  ]
+}

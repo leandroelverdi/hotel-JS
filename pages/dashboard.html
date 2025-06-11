@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Dashboard</title>
+
+      <link
+        rel="stylesheet"
+        href="../node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css"
+      />
+      <link
+        rel="stylesheet"
+        href="../node_modules/@fortawesome/fontawesome-free/css/solid.min.css"
+      />
+      <link
+        rel="stylesheet"
+        href="../node_modules/@fortawesome/fontawesome-free/css/brands.min.css"
+      />
+
+      <link rel="stylesheet" href="../css/style.css" />
+    </head>
+  </head>
+  <body>
+    <main class="d-flex">
+      <section class="d-flex flex-column bg-body-tertiary side-bar p-4">
+        <a href="/" class="d-flex text-dark text-decoration-none">
+          <h1 class="title">Bienvenido</h1>
+        </a>
+        <hr />
+        <ul class="nav nav-pills flex-column mb-auto">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link text-dark">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#home"></use>
+              </svg>
+              Inicio
+            </a>
+          </li>
+          <li>
+            <a href="./bookings.html" class="nav-link text-dark">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#speedometer2"></use>
+              </svg>
+              Lugares
+            </a>
+          </li>
+          <li>
+            <a href="./about.html" class="nav-link text-dark">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#table"></use>
+              </svg>
+              Sobre Nosotros
+            </a>
+          </li>
+        </ul>
+        <div class="dropdown">
+          <a
+            id="userLoged"
+            href="#"
+            class="d-flex align-items-center text-dark text-decoration-none dropdown-toggle mx-2"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <strong id="userName" class="d-flex text-capitalize"></strong>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+            <div id="loginButton"></div>
+            <li>
+              <a id="logoutButton" class="dropdown-item logoutButton">Cerrar Sesion</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="content mt-4 w-100 mx-5">
+        <h2 class="text-center mb-5 text-decoration-underline">
+          Historial de reservas
+        </h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Categoria</th>
+              <th scope="col">Precio</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </section>
+    </main>
+
+    <script src="../js/session.js"></script>
+    <script type="module" src="../js/dashboard.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+//base
+@import"base/vars";
+@import "base/utilities.scss";
+
+//Componentes
+@import "components/footer";
+
+// Layouts
+@import "layout/index";
+@import "layout/about";
+@import "layout/dashboard";
+
+//Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.logo {
+  width: 48px;
+  height: 48px;
+}
