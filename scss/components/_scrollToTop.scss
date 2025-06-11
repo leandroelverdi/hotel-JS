@@ -1,0 +1,26 @@
+#scrollToTopBtn {
+    display: none;
+    /* Oculto por defecto */
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 99;
+    width: 56px;
+    height: 56px;
+    border: none;
+    outline: none;
+    background-color: #0D6EFD;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+
+    /* Centrar el contenido (el SVG) */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #0d6dfdaf;
+}
