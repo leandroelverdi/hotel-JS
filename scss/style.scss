@@ -1,18 +1,15 @@
 //base
-@import"base/vars";
-@import "base/utilities.scss";
+@use"base/vars";
+@use "base/utilities.scss";
 
 //Componentes
-@import "components/scrollToTop";
-@import "components/footer";
+@use "components/scrollToTop";
+@use "components/footer";
 
 // Layouts
-@import "layout/index";
-@import "layout/about";
-@import "layout/dashboard";
-
-//Bootstrap
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@use "layout/about";
+@use "layout/dashboard";
+@use "layout/index";
 
 .logo {
   width: 48px;

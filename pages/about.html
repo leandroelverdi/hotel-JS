@@ -1,129 +1,105 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Iniciar Sesion</title>
 
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="../node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="../node_modules/@fortawesome/fontawesome-free/css/solid.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="../node_modules/@fortawesome/fontawesome-free/css/brands.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iniciar Sesion</title>
 
-    <link rel="stylesheet" href="../css/style.css" />
-  </head>
-  <body class="d-flex flex-column justify-content-between vh-100">
-    <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid px-3">
-          <a class="navbar-brand" href="../index.html">
-            <img class="logo" src="../images/logo.png" alt="Logo" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarScroll"
-            aria-controls="navbarScroll"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./bookings.html">Lugares</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./about.html">Sobre Nosotros</a>
-              </li>
-            </ul>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/solid.min.css" />
+  <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/brands.min.css" />
 
-            <div class="text-black">
-              <span id="loginButton" class="d-flex">
-                <a href="./login.html" class="text-black">Iniciar Sesion</a>
-              </span>
-              <span id="userLoged" class="align-items-center gap-2 d-none">
-                <a href="./dashboard.html" class="text-black">Perfil</a
-                ><i class="fa-solid fa-user"></i
-              ></span>
-            </div>
+  <link rel="stylesheet" href="../css/style.css" />
+
+  <!-- Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+</head>
+
+<body class="d-flex flex-column justify-content-between vh-100">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid px-3">
+        <a class="navbar-brand" href="../index.html">
+          <img class="logo" src="../images/logo.png" alt="Logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./bookings.html">Lugares</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">Sobre Nosotros</a>
+            </li>
+          </ul>
+
+          <div class="text-black">
+            <span id="loginButton" class="d-flex">
+              <a href="./login.html" class="text-black">Iniciar Sesion</a>
+            </span>
+            <span id="userLoged" class="align-items-center gap-2 d-none">
+              <a href="./dashboard.html" class="text-black">Perfil</a><i class="fa-solid fa-user"></i></span>
           </div>
         </div>
-      </nav>
-    </header>
-    <main>
-      <section class="container d-flex flex-column align-items-center gap-4">
-        <h1>Sobre nosotros</h1>
-        <p>
-          Somos una plataforma que se dedica a brindarle a nuestros clientes
-          hospedajes de primer nivel al mejor precio, nuestro emprendimiento
-          comenzó al ver lo dificil que era encontrar estadia a la hora de
-          vacacionar. Por este motivo nos esforzamos dia a dia para que en
-          nuestra plataforma esten las mejores ofertas. <br />
-          Nos importa mucho la opinion de nuestros usuarios por eso no solo
-          tenemos una seccion para que una persona pueda registrarse en nuestra
-          plataforma y poner su departamento para alquilar, si no que contamos
-          con una sección de comentarios para que los usuarios puedan ver lo que
-          opinan las demas personas del lugar y se den feedback, nos esforzamos
-          para que los usuarios registrados en nuestra plataforma ofrezcan un
-          servicio de primer nivel.
-        </p>
-      </section>
-      <section
-        class="container d-flex flex-column align-items-center gap-4 mt-5"
-      >
-        <h2>Fundadores</h2>
-        <div class="d-flex gap-5">
-          <div class="d-flex flex-column align-items-center">
-            <img
-              class="image_about rounded-circle"
-              src="../images/seo.jpg"
-              alt="Seo"
-            />
-            <h2>SEO</h2>
-          </div>
-          <div class="d-flex flex-column align-items-center">
-            <img
-              class="image_about rounded-circle"
-              src="../images/dev.jpg"
-              alt="Development"
-            />
-            <h2>Development</h2>
-          </div>
-          <div class="d-flex flex-column align-items-center">
-            <img
-              class="image_about rounded-circle"
-              src="../images/cofounder.jpg"
-              alt="Cofounder"
-            />
-            <h2>Cofounder</h2>
-          </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="container d-flex flex-column align-items-center gap-4">
+      <h1>Sobre nosotros</h1>
+      <p>
+        Somos una plataforma que se dedica a brindarle a nuestros clientes
+        hospedajes de primer nivel al mejor precio, nuestro emprendimiento
+        comenzó al ver lo dificil que era encontrar estadia a la hora de
+        vacacionar. Por este motivo nos esforzamos dia a dia para que en
+        nuestra plataforma esten las mejores ofertas. <br />
+        Nos importa mucho la opinion de nuestros usuarios por eso no solo
+        tenemos una seccion para que una persona pueda registrarse en nuestra
+        plataforma y poner su departamento para alquilar, si no que contamos
+        con una sección de comentarios para que los usuarios puedan ver lo que
+        opinan las demas personas del lugar y se den feedback, nos esforzamos
+        para que los usuarios registrados en nuestra plataforma ofrezcan un
+        servicio de primer nivel.
+      </p>
+    </section>
+    <section class="container d-flex flex-column align-items-center gap-4 mt-5">
+      <h2>Fundadores</h2>
+      <div class="d-flex gap-5">
+        <div class="d-flex flex-column align-items-center">
+          <img class="image_about rounded-circle" src="../images/seo.jpg" alt="Seo" />
+          <h2>SEO</h2>
         </div>
-      </section>
-    </main>
-    <footer
-      class="d-flex justify-content-center align-items-center bg-body-tertiary footer"
-    >
-      <span class="text-black"
-        ><i class="fa-regular fa-copyright"></i>Todos los derechos
-        reservados</span
-      >
-    </footer>
-    <script src="../js/session.js"></script>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+        <div class="d-flex flex-column align-items-center">
+          <img class="image_about rounded-circle" src="../images/dev.jpg" alt="Development" />
+          <h2>Development</h2>
+        </div>
+        <div class="d-flex flex-column align-items-center">
+          <img class="image_about rounded-circle" src="../images/cofounder.jpg" alt="Cofounder" />
+          <h2>Cofounder</h2>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="d-flex justify-content-center align-items-center bg-body-tertiary footer">
+    <span class="text-black"><i class="fa-regular fa-copyright"></i>Todos los derechos
+      reservados</span>
+  </footer>
+
+  <script src="../js/session.js"></script>
+  
+  <!-- Bootstrap 5 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

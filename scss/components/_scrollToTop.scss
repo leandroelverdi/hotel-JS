@@ -1,26 +1,20 @@
-#scrollToTopBtn {
+.scrollToTopBtn {
     display: none;
-    /* Oculto por defecto */
     position: fixed;
-    bottom: 25px;
-    right: 25px;
-    z-index: 99;
-    width: 56px;
-    height: 56px;
-    border: none;
-    outline: none;
-    background-color: #0D6EFD;
-    color: white;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1000;
     cursor: pointer;
+    background: #f8f9fa;
     border-radius: 50%;
+    padding: 12px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 
     /* Centrar el contenido (el SVG) */
-    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#scrollToTopBtn:hover {
+.scrollToTopBtn:hover {
     background-color: #0d6dfdaf;
 }
